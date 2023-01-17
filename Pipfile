@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+argdantic = "*"
+ratelimiter = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+mypy = "*"
+ruff = "*"
+boto3-stubs = "*"
+
+[requires]
+python_version = "3.8"
