@@ -7,6 +7,7 @@ name = "pypi"
 boto3 = "*"
 argdantic = "*"
 ratelimiter = "*"
+zstandard = "*"
 
 [dev-packages]
 black = "*"
@@ -14,6 +15,7 @@ isort = "*"
 mypy = "*"
 ruff = "*"
 boto3-stubs = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"
